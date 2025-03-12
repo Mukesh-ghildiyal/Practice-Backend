@@ -2,5 +2,6 @@ const dotenv = require('dotenv');
 dotenv.config();
 module.exports = {
     PORT: process.env.PORT || 5000,
-    MONGO_URI: process.env.MONGO_URI
+    MONGO_URI: process.env.MONGO_URI,
+    JWT_SECRET_KEY: process.env.JWT_SECRET_KEY
 }
